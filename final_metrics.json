@@ -1,0 +1,24 @@
+{
+  "dataset": {
+    "total_patients": 200,
+    "total_trials": 257
+  },
+  "performance": {
+    "avg_time_per_patient_seconds":  1.5,
+    "speedup_vs_manual": 1200,
+    "total_time_seconds": 15.0,
+    "patients_tested": 10
+  },
+  "coverage": {
+    "coverage_percent": 100.0,
+    "avg_matches_per_patient": 10.0,
+    "total_matches": 2000,
+    "patients_with_matches": 200
+  },
+  "validation": {
+    "accuracy_percent": 66.4,
+    "total_evaluated": 250,
+    "valid_matches": 166,
+    "validation_approach": "strict_heuristic"
+  }
+}
