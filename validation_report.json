@@ -1,0 +1,57 @@
+{
+  "strict_heuristic": {
+    "accuracy_percent": 66.4,
+    "total_evaluated": 250,
+    "valid_matches": 166,
+    "validation_approach": "strict_heuristic"
+  },
+  "negative_testing": {
+    "rejection_accuracy_percent": 63.0,
+    "negative_cases_tested": 27,
+    "correctly_rejected": 17
+  },
+  "score_distribution": {
+    "avg_score": 62.0,
+    "avg_top_score": 69.8,
+    "excellent_matches_percent": 26.5,
+    "estimated_accuracy_percent": 64.9
+  },
+  "threshold_analysis": [
+    {
+      "threshold": 30,
+      "accuracy": 100.0,
+      "valid": 150,
+      "total": 150
+    },
+    {
+      "threshold": 40,
+      "accuracy": 100.0,
+      "valid": 150,
+      "total": 150
+    },
+    {
+      "threshold": 50,
+      "accuracy": 89.33333333333333,
+      "valid": 134,
+      "total": 150
+    },
+    {
+      "threshold": 60,
+      "accuracy": 77.33333333333333,
+      "valid": 116,
+      "total": 150
+    },
+    {
+      "threshold": 70,
+      "accuracy": 51.33333333333333,
+      "valid": 77,
+      "total": 150
+    },
+    {
+      "threshold": 80,
+      "accuracy": 10.666666666666668,
+      "valid": 16,
+      "total": 150
+    }
+  ]
+}
